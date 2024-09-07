@@ -6,8 +6,8 @@ import { config } from '../../config.js';
  */
 export default {
 	data: new SlashCommandBuilder()
-		.setName('translate')
-		.setDescription('Translate the message or text')
+		.setName('server')
+		.setDescription('Displays server information')
 		.setIntegrationTypes([0])
 		.setContexts([0]),
 	async execute(interaction) {
